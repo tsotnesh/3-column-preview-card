@@ -1,0 +1,23 @@
+@media (max-width:375px) {
+
+        .main-card {
+            margin-top:30px;
+            flex-direction: column;
+            align-items:center;
+            height:auto;
+        }
+
+        .son-card:nth-child(1){
+            border-bottom-left-radius:0;
+            border-top-right-radius:10px;
+        }
+
+        .son-card:nth-child(3) {
+            border-bottom-right-radius:10px;
+            border-top-right-radius:0;
+            border-bottom-left-radius:10px;
+
+        }
+        
+        
+}

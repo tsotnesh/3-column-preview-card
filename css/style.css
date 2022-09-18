@@ -1,0 +1,106 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main-card {
+    max-width:918px;
+    width:100%;
+    height:498px;
+    margin: 0 auto;
+    margin-top:140px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+/* aq height unda iyos mititebuli aucileblad responsivis dros tore gaatrakebs. */
+.son-card {
+    width:306px;
+    position:relative;
+    height:498px;
+}
+
+.logo {
+    position:absolute;
+    top:30px;
+    left: 15px;
+
+}
+
+.header {
+    position:absolute;
+    top:100px;
+    left:15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+    color:hsl(0, 0%, 95%);
+    font-size:32px;
+
+}
+
+.text {
+    position:absolute;
+    top:150px;
+    width:200px;
+    left:15px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:20px;
+}
+
+.btn {
+    position:absolute;
+    top:360px;
+    left:15px;
+    width:100px;
+    height:50px;
+    background-color:hsla(0, 0%, 100%, 0.75);
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn1 {
+    font-family:'Lexend Deca', sans-serif;
+    font-weight:400;
+    color:hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    font-family:'Lexend Deca', sans-serif;
+    font-weight:400;
+    color:hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    font-family:'Lexend Deca', sans-serif;
+    font-weight:400;
+    color:hsl(179, 100%, 13%);
+}
+
+
+
+
+
+ .son-card:nth-child(1) {
+    background-color:hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.son-card:nth-child(2) {
+    background-color:hsl(184, 100%, 22%);
+}
+
+.son-card:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;;
+} 
+
+
+.btn:hover {
+    background-color:gray;
+}
